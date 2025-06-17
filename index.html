@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="(max-width: 750px)">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/index.css" />
-  <link rel="preload" href="background.jpg" as="image">
-  <link rel="preload" href="fonts/alegreya-v29-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/alegreya-v29-latin-900.woff2" as="font" type="font/woff2" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-  <script src="https://unpkg.com/vuex" defer></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer></script>
-  <title>2025</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+  <title>2025</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="(max-width: 750px)">
+  <link rel="stylesheet" href="styles/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <link rel="preload" href="fonts/alegreya-v29-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/alegreya-v29-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src="https://unpkg.com/vuex" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer></script>
+ 
+  
 </head>
 <body>
   <div id="cookie-vue">
@@ -30,7 +31,7 @@
       <div class="header__navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#">`
+            <a class="navigation__link" href="#">
               Articles
             </a>
           </li>
@@ -186,11 +187,11 @@
   </script>
   <script>
     // advertisment mock
-    const initAd = () => {
-      const adSpace = document.querySelector('.main__advertising');
-      const gif = ';
-      setTimeout(() => adSpace.innerHTML = gif, 3000);
-    };
+    // const initAd = () => {
+    //   const adSpace = document.querySelector('.main__advertising');
+    //   const gif = ;
+    //   setTimeout(() => adSpace.innerHTML = gif, 3000);
+    // };
   
     window.addEventListener('load', () => {
       initAd();
